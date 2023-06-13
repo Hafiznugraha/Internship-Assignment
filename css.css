@@ -1,0 +1,125 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, serif;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f2f2f2;
+    background-image: url("R.jpg");
+}
+
+.box1 {
+    max-width: 600px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-family: "Century Gothic", sans-serif;
+    margin-bottom: 20px;
+}
+
+.input {
+    margin-bottom: 20px;
+}
+
+.input label {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.input input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: separate;
+    border-spacing: 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #889ed2;
+}
+
+th {
+    font-weight: bold;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+button {
+    font-family: "Nunito", sans-serif;
+    color: #333;
+    background: #ffcc00;
+    font-size: 16px;
+    border-radius: 12px;
+    padding: 12px 0;
+    width: 100%;
+    outline: none;
+    border: none;
+    transition: background 0.2s ease;
+}
+
+button:hover {
+    background: #ffa500;
+    cursor: pointer;
+}
+
+.box2 p{
+    margin: 10px;
+    min-width: 210px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 600;
+    font-family: "Century Gothic", sans-serif;
+    padding: 10px;
+  
+  }
+  #power {
+    background: rgba(47, 128, 237, 0.85);
+    box-shadow: 0 2px 5px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 20px; 
+    border: 2px solid rgba(255, 255, 255, 0.3); 
+    padding: 10px; 
+  }
+  #rate {
+    background: rgba(47, 128, 237, 0.85);
+    box-shadow: 0 2px 5px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 20px; 
+    border: 2px solid rgba(255, 255, 255, 0.3); 
+    padding: 10px; 
+  }
+  
+ 
